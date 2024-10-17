@@ -1,0 +1,23 @@
+/* mobile & tablet */
+@media (max-width: 1024px) {
+    :root {
+        --header-height: 70px;
+        --navbar-height: 0;
+    }
+    .header-with-search {
+        padding-top: 15px;
+    }
+    .mobile_tablet-hiding {
+        display: none;
+    }
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1024px) {
+    .tablet-hiding {
+        display: none;
+    }
+    .header__cart {
+        width: 70px;
+    }
+}
